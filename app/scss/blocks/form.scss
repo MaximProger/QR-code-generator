@@ -323,18 +323,18 @@
 }
 
 .form-switch__checkbox:checked + .form-switch__round {
-  background: rgba(29, 103, 171, 0.4);
+  background: rgba($color: #f2404a, $alpha: 0.4);
 }
 
 .form-switch__checkbox:focus + .form-switch__round {
-  box-shadow: 0 0 1px rgba(29, 103, 171, 0.4);
+  box-shadow: 0 0 1px rgba($color: #f2404a, $alpha: 0.4);
 }
 
 .form-switch__checkbox:checked + .form-switch__round:before {
   transform: translateY(-50%) translateX(16px);
 
-  background: #1d67ab;
-  border-color: #1d67ab;
+  background: #f2404a;
+  border-color: #f2404a;
 }
 
 .form-switch__round {

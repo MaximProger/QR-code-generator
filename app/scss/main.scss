@@ -118,8 +118,8 @@ body {
   transition: all 0.2s linear;
   cursor: pointer;
 
-  background: #1d67ab;
-  border: 1px solid #1d67ab;
+  background: #f2404a;
+  border: 1px solid #f2404a;
   border-radius: 4px;
   color: #ffffff;
 
@@ -130,13 +130,13 @@ body {
   }
 
   &--outline {
-    border-color: #1d67ab;
+    border-color: #f2404a;
     background: transparent;
-    color: #1d67ab;
+    color: #f2404a;
 
     &:hover {
-      background: #1d67ab;
-      border-color: #1d67ab;
+      background: #f2404a;
+      border-color: #f2404a;
       color: #ffffff;
     }
   }

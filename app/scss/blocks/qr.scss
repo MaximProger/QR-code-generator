@@ -79,7 +79,7 @@
 
 .qr__info {
   display: flex;
-  align-items: center;
+  align-items: flex-start;
   justify-content: space-between;
 }
 
@@ -201,6 +201,21 @@
 
   p {
     margin-bottom: 20px;
+  }
+}
+
+.qr-download {
+  display: flex;
+  justify-content: flex-start;
+}
+
+.qr-download__btn {
+  padding-left: 20px;
+  padding-right: 20px;
+  margin-right: 10px;
+
+  &:last-child {
+    margin-right: 0;
   }
 }
 
